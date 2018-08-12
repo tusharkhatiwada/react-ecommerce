@@ -8,7 +8,6 @@ export default class Products extends Component {
     handleAddToCart = product => {
         let ci = sessionStorage.getItem("cartItems");
         let cartItems = JSON.parse(ci);
-        console.log("Cart Items: ", cartItems);
         if (cartItems) {
             cartItems.push(product);
             sessionStorage.setItem("cartItems", JSON.stringify(cartItems));

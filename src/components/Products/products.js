@@ -10,7 +10,7 @@ export const products = [
             value: "24",
             units: "ounces"
         },
-        unit_price: "18,199.00"
+        unit_price: "18199.00"
     },
     {
         sku: "23432432",
@@ -36,7 +36,7 @@ export const products = [
             value: "100",
             units: "ounces"
         },
-        unit_price: "20,750.00"
+        unit_price: "20750.00"
     },
     {
         sku: "347657",
@@ -49,6 +49,6 @@ export const products = [
             value: "80",
             units: "ounces"
         },
-        unit_price: "21,100.00"
+        unit_price: "21100.00"
     }
 ];

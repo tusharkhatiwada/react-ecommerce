@@ -3,7 +3,6 @@ import { Link } from "@reach/router";
 import { navigate } from "@reach/router";
 
 export default class Navbar extends Component {
-    componentDidMount() {}
     render() {
         return (
             <div className="container-fluid">
@@ -37,7 +36,7 @@ export default class Navbar extends Component {
                                     className="btn btn-outline-light"
                                     onClick={() => navigate("/cart")}
                                 >
-                                    Cart <span className="badge-badge-light">0</span>
+                                    Cart
                                 </button>
                             </div>
                         </nav>
